@@ -6,6 +6,9 @@ This plugin store, retrieve and remove the key value pair of data such as creden
 :warning: Report issues on the [Apache Cordova issue tracker](https://issues.apache.org/jira/browse/CB-9966)
 
 
+##iOS keychain internal design 
+![](https://raw.githubusercontent.com/javabrown/iOS-Keychain-Plugin/master/example/icons/keychain-design.png "iOS keychain internal design ")
+
 ## Installation
 
     // npm hosted (new) id
