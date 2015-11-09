@@ -24,3 +24,5 @@ var iosKeychain = {
                  'Keychain', 'remove', [ 'empty' ]);
     },    
 };
+
+module.exports = iosKeychain;
