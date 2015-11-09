@@ -1,33 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-         "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
         <head>
-                <!-- Change this if you want to allow scaling -->
                 <meta name="viewport" content="width=default-width; user-scalable=no">
                 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-                <title>iOS Keychain Demo</title>
+                <title>iOS-Keychain Demo</title>
 
                 <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
                 <script type="text/javascript" charset="utf-8" src="index.js"></script>
         </head>
 		
-        <body onload="onBodyLoad()">
-		    <div>
-				<br/><br/><br/>
-				<input type="text" id="txtget" placeholder="Enter key to retrieve value"/><br/><br/>
-				<button onclick="onGet();">KEYCHAIN GET</button><br>
+        <body>
+		<div>
+			<br/><br/><br/>
+			<input type="text" id="get1" placeholder="Enter key to retrieve value"/><br/><br/>
+			<button onclick="doGet();">KEYCHAIN GET</button><br>
 			   
-				<br/><br/><br/>
-				<input type="text" id="txtset-key" placeholder="Enter key to set"/><br/>
-				<input type="text" id="txtset-value" placeholder="Enter value to set"/><br/><br/>
-				<button onclick="onSet();">KEYCHAIN SET</button>
-					
-				   
-				 
+			<br/><br/><br/>
+			<input type="text" id="set1" placeholder="Enter key to set"/><br/>
+			<input type="text" id="set2" placeholder="Enter value to set"/><br/><br/>
+			<button onclick="doSet();">KEYCHAIN SET</button>
 			   
-				<br/><br/><br/><br/>
-				<input type="text" id="txtremove-key" placeholder="Enter key to remove"/><br/><br/>
-				<button onclick="onSet();">KEYCHAIN REMOVE</button>
-			</div>
+			<br/><br/><br/><br/>
+			<input type="text" id="rem1" placeholder="Enter key to remove"/><br/><br/>
+			<button onclick="doRemove();">KEYCHAIN REMOVE</button>
+		</div>
         </body>
 </html>
