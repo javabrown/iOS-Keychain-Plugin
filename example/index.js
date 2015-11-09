@@ -1,15 +1,3 @@
-function onBodyLoad() {
-    document.addEventListener("deviceready", onDeviceReady, false);
-}
- 
-function onDeviceReady() {
-    try {
- 
-    } catch (e) {
-        debug.error(e);
-    }
-}
-
 var onSuccess = function(value) {
     alert("GET SUCCESS - Key: " + key + " Value: " + value);
 };
